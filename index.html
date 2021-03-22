@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <title>Media2</title>
+</head>
+<body>
+  <div id="hamburger">
+    <nav class="navbar navbar-dark ">
+      <div class="container-fluid">
+        <button id="hamburgerBtn" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </button>
+      </div>
+    </nav>
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div id="toggle" class="bg-dark p-4">
+        <h5 id="toggleText" class="text-white h4">More Science</h5>
+        <span class="text-muted">Read more</span>
+      </div>
+    </div>
+  </div>
+
+  <h1>Media appearances</h1>
+
+  <div id="tiles">
+    
+    <div class="tileBtn">
+      <div id="tile1">
+        <div class="title">
+          <p>Science</p>
+          <p>Magazine</p>
+          <p>11. 12. 2018</p>
+        </div>
+        <p class="text">
+          Want to master your professional and social networks to maximize recognition? Want to learn how to build productive teams that create lasting impact? In his new book, The Formula: The Universal Laws of Success, Albert-László Barabási translates almost a decade of scholarly research on the science of success into a lively...
+        </p>
+      </div>
+      <button type="button" class="btn btn-link" id="readBtn">Read more</button>
+    </div>
+    <div class="tileBtn">
+    <div id="tile2">
+    <div class="title">
+      <p>Nature</p>
+      <p>27. 11. 2018</p>
+    </div>
+    <p class="text">
+      Originally printed by the NationalAcademies of Sciences as a poster to accompany the publication of a research paper on how diseases connect, it was subsequently reproduced by the New York Times and included in the Mapping It Out: Atlas of Contemporary Cartographies exhibition at the Serpentine Gallery in London...
+    </p>
+    </div>
+    <button type="button" class="btn btn-link" id="readBtn">Read more</button>
+    </div>
+    <div class="tileBtn">
+    <div id="tile3">
+      <svg id="vid" xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
+        <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
+      </svg>
+        <div>Lecture at NYU</div>
+    </div>
+    <button type="button" class="btn btn-link" id="readBtn">Watch</button>
+    </div>
+  </div> 
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
