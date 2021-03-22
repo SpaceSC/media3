@@ -1,16 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300;400;500;700&display=swap');
-$green: rgb(34,181,115);
-$gray: rgb(28,23,23);
-$yellow: rgb(236,172,71);
-$white: #fff;
-
-*,
-::before,
-::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+@import 'variables';
+@import 'reset';
 
 body {
   display: flex;
